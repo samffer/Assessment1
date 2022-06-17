@@ -9,7 +9,7 @@ public class Tester {
 		EmployeeService empServ = new EmployeeService();
 		empServ.readEmployeesData("employeeDetails.txt");
 		//empServ.display();
-		//empServ.searchEmployee(new Employee(106, "Peter", LocalDate.parse("2014-08-15"),6500, "IT"));
+		//empServ.searchEmployee(new Employee(106, "Peter", LocalDate.parse("2014-08-15"),6500, "IT")); //This function is not working
 		//empServ.searchEmployeeByName("Peter");
 		empServ.displaySorted();
 		
